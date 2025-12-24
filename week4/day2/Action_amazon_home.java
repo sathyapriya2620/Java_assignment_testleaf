@@ -105,7 +105,7 @@ driver.findElement(By.id("add-to-cart-button")).click();
 	Thread.sleep(3000);
 	System.out.println("The cart value :"+price_verify.getText());
 	
-	
+	driver.close();
 		
 		
 		
@@ -131,3 +131,4 @@ driver.findElement(By.id("add-to-cart-button")).click();
 	
 
 }
+
